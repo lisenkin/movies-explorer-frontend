@@ -4,9 +4,12 @@
     font-size: 14px;
     line-height: 16px;
     color: #000;
-    padding: 8px 20px;
+    padding: 8px 15px 8px 30px;
+    background: url(../../images/logo/profile.svg) 15% 50% no-repeat;
     background-color: #f9f9f9;
     border-radius: 20px;
+   
+   
   }
   
   .profile_link_active {

@@ -15,7 +15,7 @@ function MoviesCard({ movie }) {
         rel="noreferrer"
       >
         <img className="movies__image" src={movie.image} alt={movie.name} />
-        <Route path="/movies">
+          <Route path="/movies">
           <button className={likeButtonClassName} type="button"></button>
         </Route>
         <Route path="/saved-movies">
@@ -27,9 +27,8 @@ function MoviesCard({ movie }) {
       </a>
       <div className="movies-card__container">
         <h2 className="movies-card__title">{movie.name}</h2>
-      
-      </div>
       <p className="movies-card__duration">{movie.duration}</p>
+      </div>
     </article>
   );
 }

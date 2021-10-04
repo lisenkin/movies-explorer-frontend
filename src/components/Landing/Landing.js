@@ -2,10 +2,10 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
-function Landing(landingColor) {
+function Landing() {
   return (
     <>
-      <Header landingColor={landingColor} />
+      <Header className='.header .header_type_isDark' />
       <Main />
       <Footer />
     </>

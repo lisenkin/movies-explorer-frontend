@@ -14,7 +14,7 @@ import image_12 from '../images/movies/pic-12.png';
 const movies = [
   {
     name: '33 слова о дизайне',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: true,
     image: image_1,
     id: 1,
@@ -22,7 +22,7 @@ const movies = [
   },
   {
     name: 'Киноальманах «100 лет дизайна»',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_2,
     id: 2,
@@ -30,7 +30,7 @@ const movies = [
   },
   {
     name: 'В погоне за Бенкси',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_3,
     id: 3,
@@ -38,7 +38,7 @@ const movies = [
   },
   {
     name: 'Баския: Взрыв реальности',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_4,
     id: 4,
@@ -46,7 +46,7 @@ const movies = [
   },
   {
     name: 'Бег это свобода',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: true,
     image: image_5,
     id: 5,
@@ -54,7 +54,7 @@ const movies = [
   },
   {
     name: 'Книготорговцы',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: true,
     image: image_6,
     id: 6,
@@ -62,7 +62,7 @@ const movies = [
   },
   {
     name: 'Когда я думаю о Германии ночью',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_7,
     id: 7,
@@ -70,7 +70,7 @@ const movies = [
   },
   {
     name: 'Gimme Danger: История Игги и The Stooge',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_8,
     id: 8,
@@ -78,7 +78,7 @@ const movies = [
   },
   {
     name: 'Дженис: Маленькая девочка грустит',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: true,
     image: image_9,
     id: 9,
@@ -86,7 +86,7 @@ const movies = [
   },
   {
     name: 'Соберись перед прыжком',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_10,
     id: 10,
@@ -94,7 +94,7 @@ const movies = [
   },
   {
     name: 'Пи Джей Харви: A dog called money',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_11,
     id: 11,
@@ -102,7 +102,7 @@ const movies = [
   },
   {
     name: 'По волнам: Искусство звука в кино',
-    duration: '1ч 42м',
+    duration: '1ч 17м',
     isLiked: false,
     image: image_12,
     id: 12,

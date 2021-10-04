@@ -4,6 +4,7 @@ import './SearchForm.css';
 function SearchForm() {
   return (
     <>
+      <div className="searchForm">
       <form className="search-form">
         <input
           className="search-form__input"
@@ -11,8 +12,9 @@ function SearchForm() {
           type="search"
           required
         />
-        <button className="button search-form__button" type="submit"></button>
       </form>
+      <button className="button search-form__button" type="submit">Найти</button>
+      </div>
       <FilterCheckbox />
     </>
   );

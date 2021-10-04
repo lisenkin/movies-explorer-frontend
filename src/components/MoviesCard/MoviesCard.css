@@ -1,58 +1,71 @@
-.movies-card__container {
-    display: flex;
-    border-bottom: 1px solid #e8e8e8;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0 25px;
-  }
-  
-  .movies__image {
-    width: 100%;
-  }
-  
-  .movies-card__title {
-    font-weight: 500;
-    font-size: 13px;
-    line-height: 16px;
-    margin: 0;
-  }
-  
-  .movies-card__like-button {
-    width: 24px;
-    height: 24px;
-    background: url(../../images/movies-card/save-movie.svg) #f9f9f9 no-repeat
-      center; 
-    border-radius: 36px;
-    border: none;
-  }
-  
-  .movies-card__delete-button {
-    width: 24px;
-    height: 24px;
-    background: url(../../images/movies-card/delete-movie.svg) #f9f9f9 no-repeat
-      center;
-    border-radius: 36px;
-    border: none;
-    visibility: hidden;
-  }
-  
-  .movies-card__container:hover .movies-card__delete-button {
-    visibility: visible;
-  }
-  
+.movies-card {
+  position: relative;
+}
 
-  
-  .movies-card__duration {
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 13px;
-    color: #a0a0a0;
-    margin: 6px 0 0;
+.movies-card__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 25px;
+}
+
+.movies__image {
+  width: 100%;
+}
+
+.movies-card__title {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+}
+
+.movies-card__like-button {
+  width: 21px;
+  height: 21px;
+  background: url(../../images/movies-card/save-movie.svg) #f9f9f9 no-repeat center;
+  border-radius: 36px;
+  border: none;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+
+.movies-card__delete-button {
+  width: 21px;
+  height: 21px;
+  background: url(../../images/movies-card/delete-movie.svg) #f9f9f9 no-repeat center;
+  border-radius: 36px;
+  border: none;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  visibility: hidden;
+}
+
+.movies-card__container:hover .movies-card__delete-button {
+  visibility: visible;
+}
+
+.movies-card__duration {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #A0A0A0;
+  background-color: #F9F9F9;
+  height: 18px;
+  width: 52px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 520px) {
+  .movies-card__title {
+    font-size: 12px;
+    line-height: 15px;
   }
-  
-  @media screen and (max-width: 520px) {
-    .movies-card__title {
-      font-size: 12px;
-      line-height: 15px;
-    }
-  }
+}

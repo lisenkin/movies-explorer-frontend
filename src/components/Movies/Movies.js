@@ -7,7 +7,7 @@ import './Movies.css';
 function Movies({ movies }) {
   return (
     <>
-      <Header />
+      <Header className="header header_type_isWhite"/>
       <main className="movies-content movies-section app__section">
         <SearchForm />
         <MoviesCardList movies={movies} />
