@@ -14,6 +14,15 @@ function AboutMe() {
           <p className="student__paragraph">
            Живу в Осло, люблю лес 
           </p>
+          <p className="student__paragraph">
+           🌲🏕️🌿 
+          </p>
+          <p className="student__paragraph">
+           и котиков 
+          </p>
+          <p className="student__paragraph">
+          🐈
+          </p>
           <ul className="student__links">
             <li className="student__links-item">
               <a
