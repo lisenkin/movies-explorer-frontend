@@ -4,10 +4,10 @@ import MoviesCardList from '../MoviesCardList/MoviesCardList';
 import Footer from '../Footer/Footer';
 import './Movies.css';
 
-function Movies({ movies }) {
+function Movies({ movies}) {
   return (
     <>
-      <Header className="header header_type_isWhite"/>
+      <Header />
       <main className="movies-content movies-section app__section">
         <SearchForm />
         <MoviesCardList movies={movies} />
