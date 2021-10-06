@@ -4,7 +4,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-    gap: 30px 30px;
+    gap: 30px;
   }
   
   .movies-card-list__button-container {
@@ -27,12 +27,14 @@
   @media screen and (max-width: 768px) {
     .movies-card-list {
       padding: 70px 0 60px;
+      grid-template-columns: repeat(auto-fit, minmax(339px, 1fr));
       gap: 30px;
     }
   }
   
   @media screen and (max-width: 520px) {
     .movies-card-list {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       padding: 40px 0 60px;
       gap: 34px;
     }

@@ -60,30 +60,18 @@
   }
   
   @media screen and (max-width: 1280px) {
-    .section {
-      width: 93.75%;
-    }
-  
     .movies-section {
       width: 89.1%;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .section {
-      width: 94.8%;
-    }
-  
-    .movies-section {
+     .movies-section {
       width: 92.2%;
     }
   }
   
   @media screen and (max-width: 480px) {
-    .section {
-      width: 91.25%;
-    }
-  
     .movies-section {
       width: 91.25%;
     }

@@ -46,7 +46,7 @@
 }
 
 .search-form__button {
-  width: 70px;
+  min-width: 70px;
   height: 44px;
   background: #2BE080;
   border-radius: 40px;

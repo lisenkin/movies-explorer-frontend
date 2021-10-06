@@ -17,6 +17,7 @@ function MoviesCard({ movie }) {
         <img className="movies__image" src={movie.image} alt={movie.name} />
           <Route path="/movies">
           <button className={likeButtonClassName} type="button"></button>
+          <button className="button movies-card__save-button" type="submit">Сохранить</button>
         </Route>
         <Route path="/saved-movies">
           <button

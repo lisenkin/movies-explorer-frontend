@@ -2,7 +2,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #000;
+    color: white;
   }
   
   .menu__unauthorized-link_type_button {
@@ -10,6 +10,7 @@
     background-color: #2be080;
     border-radius: 3px;
     padding: 8px 20px;
+    color: black;
   }
   
   .menu__unauthorized-item {
