@@ -90,7 +90,7 @@
   
   @media screen and (max-width: 520px) {
     .project {
-      padding: 70px 4px;
+      padding: 70px 10px;
     }
   
     .project__blocks {

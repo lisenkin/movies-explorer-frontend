@@ -93,7 +93,7 @@
   @media screen and (max-width: 520px) {
     .techs {
       background-color: #fff;
-      padding: 58px 4px;
+      padding: 58px 10px;
     }
   
     .techs__content {
