@@ -1,0 +1,27 @@
+.header {
+    padding: 18px 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 18px 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      padding: 18px 14px;
+    }
+  }
+  .header_type_isDark{
+    background:#5C5C5C;
+  }
+
+  .header_type_isWhite{
+    background:white;
+  }
