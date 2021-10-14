@@ -63,6 +63,7 @@ class MainApi {
   
   const mainApi = new MainApi({
     baseUrl: 'http://localhost:3000',
+    //baseUrl: 'https://movies.lisena.api.nomoredomains.club',
     credentials: 'include',
     headers: {
       'Content-Type': 'application/json',
