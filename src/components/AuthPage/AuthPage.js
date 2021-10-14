@@ -1,8 +1,21 @@
 import { Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
+import Message from '../Message/Message';
 import './AuthPage.css';
 
-function AuthPage({ title, question, children, buttonText, path, linkText }) {
+function AuthPage({
+  title,
+  question,
+  children,
+  buttonText,
+  path,
+  linkText,
+  onSubmit,
+  message,
+  isValid,
+  showMessage,
+  isLoading,
+}) {
   return (
     <div className="auth-page app__section">
       <header className="auth-header">
@@ -11,9 +24,16 @@ function AuthPage({ title, question, children, buttonText, path, linkText }) {
       </header>
       <main className="auth-content">
         <section className="auth">
-          <form className="auth__form">
+        <form className="auth__form" onSubmit={onSubmit} noValidate>
             {children}
-            <button className="button auth__button" type="submit">
+            <Message message={message} showMessage={showMessage} />
+            <button
+              className={`button auth__button ${
+                !isLoading && isValid ? '' : 'auth__button_disabled'
+              }`}
+              type="submit"
+              disabled={!isValid || isLoading}
+            >
               {buttonText}
             </button>
             <div className="auth__container">

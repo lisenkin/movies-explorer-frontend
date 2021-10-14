@@ -1,0 +1,16 @@
+.message {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    min-height: 14px;
+    margin: 0 0 20px;
+    color: #a0a0a0;
+    transition: all 1s ease;
+  }
+  
+  .message_hidden {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  

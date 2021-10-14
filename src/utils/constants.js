@@ -1,0 +1,10 @@
+export const SHORT_MOVIE_DURATION = 40;
+export const SMALL_SCREEN_SIZE = 520;
+export const MIDDLE_SCREEN_SIZE = 768;
+export const LARGE_SCREEN_SIZE = 1100;
+export const MIN_MOVIES_QUANTITY_TO_SHOW = 5;
+export const MIDDLE_MOVIES_QUANTITY_TO_SHOW = 8;
+export const MAX_MOVIES_QUANTITY_TO_SHOW = 12;
+export const MIN_MOVIES_QUANTITY_TO_ADD = 2;
+export const MIDDLE_MOVIES_QUANTITY_TO_ADD = 3;
+export const MAX_MOVIES_QUANTITY_TO_ADD = 4;
