@@ -1,6 +1,6 @@
 import { useFormWithValidation } from '../../hooks/useFormWithValidation';
 import AuthPage from '../AuthPage/AuthPage';
-import { patterns } from '../../utils/constants';
+
 
 function Register({ onRegister, message, showMessage, isLoading }) {
   const { values, handleChange, errors, isValid } = useFormWithValidation();
@@ -56,7 +56,6 @@ function Register({ onRegister, message, showMessage, isLoading }) {
           autoComplete="off"
           onChange={handleChange}
           value={email || ''}
-          pattern={patterns.name}
         />
       </label>
       <span className="auth__error">{errors.email}</span>
