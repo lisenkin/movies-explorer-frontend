@@ -1,5 +1,6 @@
 import { useFormWithValidation } from '../../hooks/useFormWithValidation';
 import AuthPage from '../AuthPage/AuthPage';
+const validator = require('validator');
 
 function Register({ onRegister, message, showMessage, isLoading }) {
   const { values, handleChange, errors, isValid } = useFormWithValidation();
@@ -14,6 +15,8 @@ function Register({ onRegister, message, showMessage, isLoading }) {
       password,
     });
   }
+
+
 
   return (
     <AuthPage
