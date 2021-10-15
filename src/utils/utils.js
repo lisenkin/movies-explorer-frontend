@@ -49,3 +49,4 @@ export const getMoreMovies = () => {
     return constants.MAX_MOVIES_QUANTITY_TO_ADD;
   }
 };
+
