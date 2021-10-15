@@ -124,7 +124,7 @@ function App() {
     }
 
     checkToken();
-  }, [history]);
+  }, [history, path]);
 
   useEffect(() => {
     if (loggedIn) {
