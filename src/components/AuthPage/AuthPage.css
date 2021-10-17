@@ -31,6 +31,14 @@
     line-height: 17px;
     color: #fff;
   }
+
+  .auth__button_disabled {
+    background-color: #f8f8f8;
+    color: #c2c2c2;
+    cursor: default;
+    pointer-events: none;
+  }
+  
   
   .auth__container {
     display: flex;
@@ -101,6 +109,10 @@
     font-size: 10px;
     line-height: 12px;
     margin: 0 0 6px;
+  }
+  
+  .auth__error:last-of-type {
+    margin: 0 0 96px;
   }
   
   @media screen and (max-width: 768px) {
